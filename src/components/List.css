@@ -1,0 +1,42 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ListItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.295);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.ListItem .check {
+  text-decoration: line-through;
+}
+
+.List input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.List form button {
+  background-color: rgb(241, 239, 239);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.ListBtns {
+  margin-left: 10px;
+}
+
+.ListBtns button {
+  background-color: rgb(241, 239, 239);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
